@@ -27,32 +27,21 @@ a.button4{
     }
 /*Background*/
 html {
-
-    background-color: #edd9a3;
+    background: rgb(237,217,163);
+    background: radial-gradient(circle, rgba(237,217,163,1) 0%, rgba(255,255,255,1) 100%);background: rgb(237,217,163);
+    background: radial-gradient(circle, rgba(237,217,163,1) 0%, rgba(255,255,255,1) 100%);
     font-family: 'Montserrat', 'Roboto', serif; 
 }
-h1 {
-    font-size: 100px;
-    background-image: url("../BioSite\ Landing/Photos/Emi1 edited.jpg");
-    background-position:0cm;
-    background-size: 1300px 300px;
-    background-repeat: no-repeat;
-    background-position: center center;
-    color: white;
-    letter-spacing: 25px;   
-}
+
 h2 {
     font-size: 75px;
     font-family: 'Montserrat', Georgia, serif;
     padding-bottom: 0;
-    border-style:dotted;
-    border-color: #e2e8c0;
-    background-color: #e2e8c0;
+    padding-top: 50px;
 }
 h3 {
    font-size: 15px;
    padding-bottom: 10px;
-   padding-top: 0px;
 }
 p.Info {
     text-align: center;
@@ -96,66 +85,35 @@ p.Info {
 }
 
 /*End First List*/
-ol.Pictures {
-    text-align: center;
-    display:inline-block;
-    padding-right: 50px;
-}
+
 body {
     text-align: center;
 }
 /*Beginning of Photos*/
-div.space {
-    background-color: #cea07e;
-    background-position: center;
-    border-width: 80px;
-    display: inline-table;
-    padding-right: 195px;
-    padding-left: 180px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    border-radius: 20px;
+div {
+    float: left;
+    width: 600px;
 }
-.GoalPic {
-    border: hidden;
-    background-color: #846c5b;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 10%;
-    
 
-    
-}
+
 .travel {
     font-size:20px;
     padding-bottom: 50px;
      font-weight: bold;
 }
-.AccomplishmentPic {
-    border: hidden;
-    background-color: #846c5b;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 10%;
-    
-}
+
 .sticker{ 
     font-size: 20px;
     padding-bottom: 50px;
     font-weight: bold;
+    
 }
-.EmbellishPic {
-    border: hidden;
-    background-color: #846c5b;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    border-radius: 10%;
-}
+
 .friends {
     font-size: 20px;
     padding-bottom: 50px;
     font-weight: bold;
-    border-radius: 10%;
+    border-radius: 10%; 
 }
 
 /*Beginning of Footer*/
@@ -167,7 +125,13 @@ div.space {
     font-size: 20px;
     font-style: italic;
 }
-#myButn {
+div.quote {
+    position: center;
+    padding-left: 600px;
+    padding-top: 50px;
+}
+
+footer.myButn {
     position: fixed; 
     bottom: 20px; 
     right: 30px; 
@@ -179,12 +143,20 @@ div.space {
     cursor: pointer; 
     padding: 15px; 
     border-radius: 50px; 
-    font-size: 18px; 
+    font-size: 18px;
+    text-decoration: none; 
   }
   
   #myButn:hover {
-    background-color: #e2e8c0; 
+    background-color: #846c5b;
+    text-decoration: underline;
   }
     
-    /* Does not actually link to the top yet, sorry! */
+  img {
+    border-radius: 50%;
+    width: 550px;
+    height: 600px;
+    padding: 15px;
+  }
+
   
